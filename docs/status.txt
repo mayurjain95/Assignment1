@@ -1,1 +1,10 @@
-//Include the output of git status here
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\MJ\Downloads\Assignment1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\MJ\Downloads\Assignment1>
