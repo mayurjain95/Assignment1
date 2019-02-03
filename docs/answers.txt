@@ -1,0 +1,58 @@
+E. Answer the following questions in the answers.txt file, and then commit and push the
+changed file to the repository:
+(a) Paste the console output you saved at the end of step 3.C (2 points)
+
+Ans : Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\MJ\Downloads\Assignment1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\MJ\Downloads\Assignment1>
+
+(b) How many commits have been done to the repository (not only by you, but by
+anyone) so far? Write the git command you used to get this information
+Ans- There were 14 commits which included commits. 
+Command used is "git log".
+
+(c) When was the .gitignore file modified last? Write the git command you used
+to get this information (4 points)
+Ans - It was last modified on "Date:   Thu Sep 15 10:29:34 2016 -0400". Command used  is "git log --follow .gitignore".
+
+
+(d) Mention two reasons why branches are used in a Git repository (4 points)
+Ans : The two reason for using brances in Git are 
+	1. Branching allows developers to develope various features in parallel without hindering each other works.
+	2. It helps in maintaining the software like bug-fixing while simultaneously working on newer releases.
+
+(e) What is the difference between git log and git status? (4 points)
+Ans : The "git status" provides us with current situation of our working tree i.e all the files that have been staged, modified or are untracked.
+
+"git log" will keep track of all the commits that have been till now by a user. It has varied different options as well.
+
+(f) What command would you use to see the commits where “Weapon.java” was
+one of the committed files? (4 points)
+Ans : The command "git log --follow Weapon.java" will give me all commands related to the given file.
+
+(g) What command would you use to see the commits whose commit message
+contains the word “file”? (4 points)
+Ans- The command used is "git log grep file" which will give me all commits with word "file" in it.
+
+(h) In the context of object-oriented programming (I) What is inheritance? (II)
+What is polymorphism? (III) What is encapsulation? (6 points)
+Ans (I) : Inheritance is a technique by which one class acquires the properties of a another class. The class from which we inherit is known as parent class and the class in which we inherit is know as child clas. We use the keyword "extends" for inheriting a class.
+
+(II) : Polymorphism is another technique by which we can use the single fuction for multiple operations. There are two types of polymorphism. Compile time and Run time polymorphism.
+
+(III) : Encapsulation is putting the data and methods under one wrapper. This makes the code easier and systematic. In Java this is done by putting the code in one class. Therefore class is collection of objects, fuctions and data members. 
+
+(i) What is the main difference between the “Dictator and Lieutenants” workflow
+and the “Integration management” workflow”? (5 points)
+Ans. In Integration management workflow all developers push their changes to one single authority who pulls the changes and tests locally before mankig the commits in official repository while in Dictators and Lieutenants workflow the developers knows as Lieutenants make changes and merge their work with master of Dictator and then he pushes it reference repository. Lietenants and Dictators is on a large scale with sometimes hundreds of developers.
+
+(j) Why a team of 100 developers would benefit more by following the “Dictator
+and Lieutenants” workflow instead of the “Centralized” workflow? (5 points)
+Ans- This workflow is good for big projects with 100 developers because it has intermediate  integrator that help in syncing up the code before sending it to dictator. This helps in avoiding bottleneck and avoiding bugs.
