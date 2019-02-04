@@ -8,7 +8,7 @@ public class RoleGame {
 
     public static void main(String[] args) {
 
-    	int armor = 29;
+    	int armor = 29;  // I couldn't understand the line to add test cases. I did checked the code using different armor values.
 
         Weapon weapon = WeaponFactory.getWeapon("sword");
         System.out.println("Sword has " + weapon.hit() + " of damage.");        

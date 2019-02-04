@@ -56,3 +56,7 @@ Ans. In Integration management workflow all developers push their changes to one
 (j) Why a team of 100 developers would benefit more by following the “Dictator
 and Lieutenants” workflow instead of the “Centralized” workflow? (5 points)
 Ans- This workflow is good for big projects with 100 developers because it has intermediate  integrator that help in syncing up the code before sending it to dictator. This helps in avoiding bottleneck and avoiding bugs.
+
+Ans 5 : The code uses both polymorphism and encapsulation.
+
+Polymorphism is evident in the code by the use of method "hit".The method is just declared and overloaded in Weapon.java. The method is also being overriden in each different weapon class as well. For encapsulation we see that the computation of hit done by each weapon is calculated in their classes respectively but the value is retrieved from these classes by invoking hit methods.
