@@ -5,9 +5,7 @@ import java.util.Random;
  */
 public class CrazyRandomSword extends BasicWeapon implements Weapon {
 
-    public CrazyRandomSword() {
-		Random rand = new Random();	
-        int hitpoints = rand.nextInt(99) + 4;
+    public CrazyRandomSword(int hitpoints) {
 		super(hitpoints);
     }
 
